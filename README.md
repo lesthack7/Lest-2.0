@@ -2,10 +2,10 @@ local TextChatService = game:GetService("TextChatService")
 local UserInputService = game:GetService("UserInputService")
 local player = game.Players.LocalPlayer
 
-local comandos = { "/mat", "/render", "/fura pneu" }
-local iniciais = { ["/mat"] = "M", ["/render"] = "R", ["/fura pneu"] = "F" }
-local delays = { ["/mat"] = 0.2, ["/render"] = 0.2, ["/fura pneu"] = 0.2 }
-local reps = { ["/mat"] = 1, ["/render"] = 1, ["/fura pneu"] = 1 }
+local comandos = { "/mat peto🍫", "/render peto🍫", "/fura pneu peto🍫" }
+local iniciais = { ["/mat🍫"] = "M", ["/render🍫"] = "R", ["/fura pneu🍫"] = "F" }
+local delays = { ["/mat🍫"] = 0.2, ["/render🍫"] = 0.2, ["/fura pneu🍫"] = 0.2 }
+local reps = { ["/mat🍫"] = 1, ["/render🍫"] = 1, ["/fura pneu🍫"] = 1 }
 local spamThreads, spamON = {}, {}
 local mainGui = nil
 local actionBtnsGui = nil
